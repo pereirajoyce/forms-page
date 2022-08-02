@@ -1,0 +1,51 @@
+.container-check {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2;
+    margin-bottom: 5vh;
+}
+
+.card-header {
+    background-color: #3A3A3A;
+}
+
+.card-deck .card {
+    width: 15rem;
+    height: 12.5rem;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0px 1px 10px 0px rgba($color: #000, $alpha: 0.1) ;
+    margin-top:-2vh;
+}
+
+.card { 
+    background-color: #A7A6A6;
+}
+
+.selecionado {
+    background-color: #FFAF1F;
+  }
+  
+  .naoSelecionado {
+    background-color: #A7A6A6;
+  }
+  
+.card-deck {
+    position:relative;
+    margin-bottom: 3rem;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+    background-color: #FFAF1F;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #FFAF1F;
+    border-color: transparent;
+}

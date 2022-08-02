@@ -1,0 +1,20 @@
+#colFooter {
+    color:#86868B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+.container-footer, .brazil {
+    display: flex;
+    width:80%;
+    margin: auto;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    flex-wrap: wrap; 
+}
+
+.brazil{
+    justify-content: flex-end;
+    font-size: 1.4rem;
+    color:#86868B;
+}

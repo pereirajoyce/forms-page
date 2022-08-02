@@ -1,0 +1,26 @@
+main .container {
+    max-width: 600px;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 60%;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgba($color: #000, $alpha: 0.2) ;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #3A3A3A;
+
+}
+
+.subtitle { 
+    padding-top: 1vh;
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #3A3A3A;
+}
