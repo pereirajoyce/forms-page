@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- bootstrap e sass -->
+    <link rel="stylesheet" href="scss/bootstrap.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+
+    <title>Slabware</title>
+
+</head>
+
+<body>
+    <header>
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="container">
+                <span class="bi bi-chevron-left"></span>
+                <a class="navbar text-uppercase text-white" href="#">back to versions</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- sign up form -->
+        <div class="container">
+            <div class="col p-5">
+                <h4 class="title mb-4 text-center">Sign Up for Fabricator</h4>
+
+                <h4 class="subtitle py-2">Please enter your details</h4>
+                
+                <form action="">
+        
+                  <div class="col-12 pb-3">
+                    <input type="text" class="form-control" id="firstName" placeholder="*Name..." required>
+                  </div>
+
+                  <div class="col-12 pb-3">
+                    <input type="email" class="form-control" id="email" placeholder="*E-mail..." value="" required>
+                  </div>
+
+                  <div class="col-12 pb-3">
+                    <input type="tel" class="form-control" id="phone" placeholder="*Phone..." value="" required>
+                  </div>
+
+                  <div class="col-12 pb-3">
+                    <input type="text" class="form-control" id="company" placeholder="*Company..." value="" required>
+                  </div>
+
+                  <div class="col-12 pb-3">
+                    <input type="text" class="form-control" id="login" placeholder="*Login..." value="" required>
+                  </div>
+
+                  <div class="col-12 pb-3">
+                    <input type="password" class="form-control" id="password" placeholder="*Password..." required>
+                  </div>
+
+                  <div class="col-12">
+                    <div class="input-group">
+                      <input type="url" class="form-control" id="url" placeholder="*Temporary Website..." required>
+                        <span class="text py-2 px-2" style="color: #A7A6A6">slabware.com</span>
+                    </div>
+                  </div>
+
+                  <h4 class="subtitle mt-2">Select your plan</h4>
+            </div>
+
+            <!-- form check -->                    
+            <div class="container-check">
+              
+              <div class="card-deck px-3 text-center">
+                <div class="card selecionado" id="card-form">
+                  <div class="card-header text-white">
+                    <h4 class="my-0 text-white">Monthly</h4>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title-pricing"><b>U$ 149</b></h3>
+                    <h5>Per month</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-deck px-3 text-center">
+                <div class="card naoSelecionado" id="card-form">
+                  <div class="card-header text-white">
+                    <h4 class="my-0 text-white">Semesterly</h4>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title-pricing"><b>U$ 142</b></h3>
+                    <h5>Per month</h5>
+                    
+                    <h6 class="text py-2">Billed semesterly <b>U$ 852</b></h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card-deck text-center">
+                <div class="card naoSelecionado" id="card-form">
+                  <div class="card-header">
+                    <h4 class="my-0 text-white">Yearly</h4>
+                  </div>
+                  <div class="card-body">
+                    <h2 class="card-title-pricing"><b>U$ 135</b></h2>
+                    <h5>Per month</h5>
+                    
+                    <h6 class="text py-2">Billed early <b>U$ 1,620</b></h6>
+                  </div>
+                </div>
+              </div>
+
+            <button class="btn px-5 rounded-pill text-uppercase" type="submit">Buy Now!</button>
+          </form>
+        </div>
+    </main>
+
+      <!-- footer -->
+      <footer class="row py-5 border-top bg-white" id="row">
+
+        <div class="container-footer mb-5">
+          <div class="col" id="colFooter">
+            <h4 class="">Pages</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            </ul>
+          </div>
+
+          <div class="col" id="colFooter">
+            <h4>Versions</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">Fabricator</li>
+            </ul>
+          </div>
+
+          <div class="col" id="colFooter">
+            <h4>More Info</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">info@slabware.com</li>
+            </ul>
+          </div>
+
+          <div class="col" id="colFooter">
+            <h4>Help</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How It Works</a></li>
+            </ul>
+          </div>
+
+          <div class="col" id="colFooter">
+            <h4>Social Media</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- footer 2 -->
+        <div class="row mt-5 border-top bg-white" id="row">
+          <div class="container-footer pt-5">
+            <div class="col" id="colFooter">
+              <h4 class="">Headquarter:</h4>
+            </div>
+            <div class="brazil">
+              Brazil
+            </div>
+        
+      </footer>
+
+    <!-- scripts -->  
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
